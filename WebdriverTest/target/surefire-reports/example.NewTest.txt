@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: example.NewTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.006 sec <<< FAILURE!
+invalidLoginDetails(example.NewTest)  Time elapsed: 5.536 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Your login details are incorre] but found [Your login details are incorrect]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at example.NewTest.invalidLoginDetails(NewTest.java:97)
+
